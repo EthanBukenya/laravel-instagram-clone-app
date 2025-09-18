@@ -4,27 +4,15 @@ A modern social media platform built with Laravel and Vue.js that replicates Ins
 
 ## 📸 Screenshots
 
-### Home Feed
-![Home Feed](screenshots/home-feed.png)
-*The main dashboard displaying user posts with like and comment functionality*
-
 ### User Profile
 ![User Profile](screenshots/user-profile.png)
 *Individual user profile page showing posts grid and follower statistics*
 
-### Post Details
-![Post Details](screenshots/post-details.png)
-*Detailed post view with comments and interaction options*
 
-### Follow System
-![Follow System](screenshots/follow-system.png)
-*Follow/Unfollow functionality in action*
+### Register/login System
+![Follow System](screenshots/register.png)
+*Registe/Login functionality in action*
 
-### Mobile Responsive Design
-<div align="center">
-  <img src="screenshots/mobile-home.png" width="300" alt="Mobile Home">
-  <img src="screenshots/mobile-profile.png" width="300" alt="Mobile Profile">
-</div>
 
 *Mobile-responsive design ensuring great user experience across all devices*
 
@@ -85,12 +73,8 @@ laravel-instagram-clone-app/
 ├── routes/
 │   └── web.php
 └── screenshots/          # Application screenshots
-    ├── home-feed.png
     ├── user-profile.png
-    ├── post-details.png
-    ├── follow-system.png
-    ├── mobile-home.png
-    └── mobile-profile.png
+    └── register.png
 ```
 
 ## 🚀 Installation Guide
@@ -165,12 +149,17 @@ The application uses Laravel's storage disk system for secure file management:
 - This setup ensures secure file access while maintaining public availability
 
 ### Database
-The project is configured to use SQLite for simplicity and portability. The database file is located in the `database/` directory.
+The project is configured to use MYSQL for simplicity. The database file is located in the `database/` directory.
 
 ### Email Configuration
-Email functionality is set up with Mailtrap for development testing. Update your `.env` file with your Mailtrap credentials:
+Email functionality is set up with Mailtrap for development testing. Update your `.env` file with your Mailtrap credentials same applies to Database credentials:
 
 ```env
+
+DB_DATABASE=laravelecomprodb
+DB_USERNAME=root
+DB_PASSWORD=root
+
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.mailtrap.io
 MAIL_PORT=2525
