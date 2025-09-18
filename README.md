@@ -5,13 +5,13 @@ A modern social media platform built with Laravel and Vue.js that replicates Ins
 ## 📸 Screenshots
 
 ### User Profile
-![User Profile](screenshots/user-profile.png)
+![User Profile](https://raw.githubusercontent.com/EthanBukenya/laravel-instagram-clone-app/main/screenshots/user-profile.png)
 *Individual user profile page showing posts grid and follower statistics*
 
 
 ### Register/login System
-![Follow System](screenshots/register.png)
-*Registe/Login functionality in action*
+![Register system](https://raw.githubusercontent.com/EthanBukenya/laravel-instagram-clone-app/main/screenshots/register.png)
+*Register/Login functionality in action*
 
 
 *Mobile-responsive design ensuring great user experience across all devices*
